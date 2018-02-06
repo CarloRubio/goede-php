@@ -1,0 +1,47 @@
+.morgen {
+	background-size: 100%;
+	background-image: url('../img/morning.png');
+}
+.middag {
+	background-size: 100%;
+	background-image: url('../img/afternoon.png');
+}
+.avond {
+	background-size: 100%;
+	background-image: url('../img/evening.png');
+}
+.nacht {
+	background-size: 100%;
+	background-image: url('../img/night.png');
+}
+
+.text {
+	color: white;
+	font-family: 'Playball', cursive;
+	font-size: 34px;
+	text-shadow: 2px 2px #5c5d60;
+	text-align: center;
+	margin-top: 14%;
+}
+
+.vlieg {
+	left: 0px;
+	top: 400px;
+    width: 160px;
+    height: 100px;
+    position: fixed;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {left:-200px; top:100px;}
+    25%  {left:400px; top:200px;}
+    50%  {left:800px; top:50px;}
+    75%  {left:1200px; top:100px;}
+    80%  {left:1600px; top:200px;}
+    100% {left:1800px; top:50px;}
+ }
